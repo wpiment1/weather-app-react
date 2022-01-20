@@ -1,7 +1,11 @@
-.App {
+.WeatherApp {
   border: 1px solid #4e5056;
   border-radius: 10px;
   padding: 20px;
   margin: 30px 30px 0px 30px;
   max-width: 650px;
+}
+
+.SourceCodeLink {
+  margin-left: 30px;
 }

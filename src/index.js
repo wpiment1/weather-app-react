@@ -9,9 +9,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Search />
-      <Weather />
-      <p class="source-code-link">
+      <div className="WeatherApp">
+        <Search />
+        <Weather />
+      </div>
+      <p className="SourceCodeLink">
         <a
           href="https://https://github.com/wpiment1/weather-app-react"
           target="_blank"
