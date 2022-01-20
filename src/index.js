@@ -11,6 +11,16 @@ function App() {
     <div className="App">
       <Search />
       <Weather />
+      <p class="source-code-link">
+        <a
+          href="https://https://github.com/wpiment1/weather-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open source code
+        </a>
+        by Winifer Pimentel
+      </p>
     </div>
   );
 }
