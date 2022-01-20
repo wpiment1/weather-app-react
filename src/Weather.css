@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  cursor: cursor;
+}
+
+.place-info {
+  list-style: none;
+  margin: 0px 20px;
+  padding: 0px;
+}
+
+.place-characteristics {
+  list-style: none;
+}
+
+.temperature {
+  font-size: 38px;
+}
+.temperature-units {
+  position: relative;
+  top: -15px;
+}
+
+#city-country {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#icon {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
