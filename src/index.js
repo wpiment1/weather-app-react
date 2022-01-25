@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Search from "./Search";
 import Weather from "./Weather";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <div className="WeatherApp">
-        <Search />
         <Weather />
       </div>
       <p className="SourceCodeLink">
