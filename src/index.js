@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="WeatherApp">
-        <Weather />
+        <Weather city="New York" country="US" />
       </div>
       <p className="SourceCodeLink">
         <a

@@ -2,31 +2,31 @@ import React from "react";
 import "./Weather.css";
 import Search from "./Search";
 
-export default function Weather () {
+export default function Weather (props) {
   return (
     <div>
       <Search />
       <ul class="place-info">
-        <li id="city-country">New York, US</li>
+        <li className="city-country">{props.city}, {props.country}</li>
         <li>
-          Last Updated: 10:00 <span id="date-time"> </span>
+          Last Updated: 10:00
         </li>
-        <li id="forecast">Cloudy</li>
+        <li className="forecast">Cloudy</li>
       </ul>
       <div class="row">
         <div class="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Clear"
-            id="icon"
+            className="icon"
           />
           <span class="temperature">22</span>
           <small class="temperature-units">
-            <a href="/" id="celsius" class="active">
+            <a href="/">
               °C
             </a>
             |
-            <a href="/" id="fahrenheit">
+            <a href="/">
               °F
             </a>
           </small>
@@ -34,13 +34,13 @@ export default function Weather () {
         <div class="col-6">
           <ul class="place-characteristics">
             <li>
-              Humidity: 80<span id="humidity"></span>%
+              Humidity: 80%
             </li>
             <li>
-              Wind Speed: 8 <span id="wind-speed"> </span> mi/hr
+              Wind Speed: 8 mi/hr
             </li>
             <li>
-              Feels Like: 19<span id="feels-like"> </span>
+              Feels Like: 19°
             </li>
           </ul>
         </div>

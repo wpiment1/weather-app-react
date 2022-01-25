@@ -21,12 +21,12 @@ a {
   top: -15px;
 }
 
-#city-country {
+.city-country {
   font-weight: 500;
   font-size: 18px;
 }
 
-#icon {
+.icon {
   height: 100px;
   width: 100px;
   margin-bottom: 20px;
