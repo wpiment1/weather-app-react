@@ -31,3 +31,21 @@ a {
   width: 100px;
   margin-bottom: 20px;
 }
+
+.search-row {
+  margin-left: 8px;
+  padding-bottom: 5px;
+}
+
+.search-button {
+  margin-left: 10px;
+}
+
+.current-location-button {
+  margin: 5px;
+}
+
+.search-input {
+  height: 38px;
+  width: 300px;
+}

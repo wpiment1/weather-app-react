@@ -18,7 +18,7 @@ function App() {
           rel="noreferrer"
         >
           Open source code
-        </a>
+        </a>{" "}
         by Winifer Pimentel
       </p>
     </div>
