@@ -11,7 +11,6 @@ export default function Weather(props) {
   function showCityWeather(response) {
     setWeather({
       loaded: true,
-      country: response.data.sys.country,
       // date: new Date(response.data.dt * 1000),
       temperature: Math.round(response.data.main.temp),
       description: response.data.weather[0].description,
