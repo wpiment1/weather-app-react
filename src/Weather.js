@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import FormattedDate from "./FormattedDate";
+import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -64,39 +64,11 @@ export default function Weather(props) {
             />
           </form>
         </div>
-        <ul className="place-info">
-          <li className="city-country">
-            {weather.city}, {weather.country}
-          </li>
-          <li>
-            <FormattedDate />
-          </li>
-          <li className="forecast text-capitalize">{weather.description}</li>
-        </ul>
-        <div className="row">
-          <div className="col-6">
-            <img
-              src={weather.icon}
-              alt={weather.description}
-              className="icon"
-            />
-            <span className="temperature">22</span>
-            <small className="temperature-units">
-              <a href="/">°C</a>|<a href="/">°F</a>
-            </small>
-          </div>
-          <div className="col-6">
-            <ul className="place-characteristics">
-              <li>Humidity: {weather.humidity}%</li>
-              <li>Wind Speed: {weather.windSpeed} mi/hr</li>
-              <li>Feels Like: {weather.feelsLike}°</li>
-            </ul>
-          </div>
-        </div>
+        <WeatherInfo data={weather}/>
       </div>
     );
   } else {
     search();
-    return "loading...";
+    return "Loading...";
   }
 }
