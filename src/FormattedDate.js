@@ -19,11 +19,11 @@ export default function FormattedDate(s) {
   if (hours > 12) {
     hours = hours - 12;
     period = `pm`;
-    if (hours < 10) {
-      hours = `0${hours}`;
-    } else {
-      hours = `${hours}`;
-    }
+  }
+  if (hours < 10) {
+    hours = `0${hours}`;
+  } else {
+    hours = `${hours}`;
   }
 
   if (minutes < 10) {
