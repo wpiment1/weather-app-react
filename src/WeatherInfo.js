@@ -28,7 +28,6 @@ export default function WeatherInfo(props) {
           <ul className="place-characteristics">
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind Speed: {props.data.windSpeed} mi/hr</li>
-            <li>Feels Like: {props.data.feelsLike}°</li>
           </ul>
         </div>
       </div>
