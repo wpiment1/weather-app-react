@@ -38,14 +38,13 @@ a {
 }
 
 .search-button {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
-.current-location-button {
+/* .current-location-button {
   margin: 5px;
-}
+} */
 
 .search-input {
   height: 38px;
-  width: 300px;
 }
